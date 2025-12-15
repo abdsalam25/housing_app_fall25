@@ -1,0 +1,22 @@
+artifact_path: /Users/abdulsalam/Documents/housing_app_fall25/notebooks/PASTE_MLFLOW_URI_HERE/818398674199534543/models/m-9eef63e287554232ba7d70207c3e6aee/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.7.0
+model_id: m-9eef63e287554232ba7d70207c3e6aee
+model_size_bytes: 2792
+model_uuid: m-9eef63e287554232ba7d70207c3e6aee
+prompts: null
+run_id: 1a401f36a44b45f9b0fc787e828eeea2
+utc_time_created: '2025-12-15 22:27:51.730269'
