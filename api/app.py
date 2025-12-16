@@ -13,6 +13,9 @@ class Customer(BaseModel):
     SeniorCitizen: int
     tenure: int
     MonthlyCharges: float
+    Partner: str
+    Dependents: str
+    PhoneService: str
 
 @app.get("/")
 def home():
