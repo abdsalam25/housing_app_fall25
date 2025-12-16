@@ -1,0 +1,14 @@
+artifact_uri: /Users/abdulsalam/Documents/housing_app_fall25/notebooks/PASTE_MLFLOW_URI_HERE/381628100968772676/6fe7ff59eaf9468aaca83776585ba6de/artifacts
+end_time: 1765849634305
+entry_point_name: ''
+experiment_id: '381628100968772676'
+lifecycle_stage: active
+run_id: 6fe7ff59eaf9468aaca83776585ba6de
+run_name: Exp7_GradientBoosting_PCA-True_Tuned-False
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765849633543
+status: 3
+tags: []
+user_id: abdsalam25

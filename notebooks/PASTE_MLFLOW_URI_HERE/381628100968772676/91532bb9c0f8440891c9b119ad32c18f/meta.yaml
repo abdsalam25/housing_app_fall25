@@ -1,0 +1,14 @@
+artifact_uri: /Users/abdulsalam/Documents/housing_app_fall25/notebooks/PASTE_MLFLOW_URI_HERE/381628100968772676/91532bb9c0f8440891c9b119ad32c18f/artifacts
+end_time: 1765849632309
+entry_point_name: ''
+experiment_id: '381628100968772676'
+lifecycle_stage: active
+run_id: 91532bb9c0f8440891c9b119ad32c18f
+run_name: Exp1_Ridge_PCA-False_Tuned-False
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765849632261
+status: 3
+tags: []
+user_id: abdsalam25

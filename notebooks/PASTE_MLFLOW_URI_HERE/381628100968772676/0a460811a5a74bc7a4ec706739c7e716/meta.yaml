@@ -1,0 +1,14 @@
+artifact_uri: /Users/abdulsalam/Documents/housing_app_fall25/notebooks/PASTE_MLFLOW_URI_HERE/381628100968772676/0a460811a5a74bc7a4ec706739c7e716/artifacts
+end_time: 1765849635995
+entry_point_name: ''
+experiment_id: '381628100968772676'
+lifecycle_stage: active
+run_id: 0a460811a5a74bc7a4ec706739c7e716
+run_name: Exp11_XGBoost_PCA-True_Tuned-False
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765849635447
+status: 3
+tags: []
+user_id: abdsalam25
