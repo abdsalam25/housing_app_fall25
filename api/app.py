@@ -8,7 +8,7 @@ app = FastAPI()
 
 model = joblib.load("model.joblib")
 
-class Customer(BaseModel):
+class CustomerData(BaseModel):
     gender: str
     SeniorCitizen: int
     tenure: int
@@ -19,13 +19,16 @@ class Customer(BaseModel):
 
 @app.get("/")
 def home():
-    return {"message": "Churn Prediction API is Live!"}
+    return {"message": "Churn Prediction API is Live on Cloud!"}
 
 @app.post("/predict")
-def predict(data: Customer):
+def predict(data: CustomerData):
     df = pd.DataFrame([data.dict()])
+    
     pred = model.predict(df)[0]
-    return {"prediction": int(pred), "label": "Churn" if pred == 1 else "No Churn"}
+    
+    result = "Churn" if pred == 1 else "No Churn"
+    return {"prediction": int(pred), "label": result}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)

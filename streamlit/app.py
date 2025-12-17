@@ -28,7 +28,8 @@ if st.button("Predict"):
         "PhoneService": phone
     }
     
-    url = "http://api:8000/predict"
+    #digitalocean model api url
+    url = "http://159.89.46.127:8000/predict"
     
     try:
         response = requests.post(url, json=payload)
