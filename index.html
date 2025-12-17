@@ -8012,29 +8012,21 @@ Passing `palette` without assigning `hue` is deprecated and will be removed in v
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">ydata_profiling</span><span class="w"> </span><span class="kn">import</span> <span class="n">ProfileReport</span>
-
-<span class="k">try</span><span class="p">:</span>
-    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"../churn_data.csv"</span><span class="p">)</span>
-<span class="k">except</span><span class="p">:</span>
-    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"churn_data.csv"</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Generating Report..."</span><span class="p">)</span>
-<span class="n">profile</span> <span class="o">=</span> <span class="n">ProfileReport</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">"Churn Data"</span><span class="p">,</span> <span class="n">minimal</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">profile</span><span class="o">.</span><span class="n">to_file</span><span class="p">(</span><span class="s2">"my_data_profile.html"</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"DONE! Check your file list for 'my_data_profile.html'"</span><span class="p">)</span>
-</pre></div>
-</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Telco-Customer-Churn-Project">Telco Customer Churn Project<a class="anchor-link" href="#Telco-Customer-Churn-Project">¶</a></h1><p><strong>By Abdul Salam</strong></p>
+<h3 id="Project-Links">Project Links<a class="anchor-link" href="#Project-Links">¶</a></h3><ul>
+<li><strong>Dataset Source:</strong> <a href="https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv">IBM Telco Customer Churn</a></li>
+<li><strong>GitHub Repository:</strong> <a href="https://github.com/abdsalam25/housing_app_fall25">Project Code</a></li>
+<li><strong>Docker Hub Profile:</strong> <a href="https://hub.docker.com/u/abdsalam">Docker Images</a></li>
+<li><strong>Experiment Tracking:</strong> <a href="https://dagshub.com/abdsalam25/churn-project">DagsHub / MLflow</a></li>
+<li><strong>Live Streamlit App:</strong> <a href="http://159.89.46.127:8501">Click Here</a></li>
+</ul>
 </div>
 </div>
 </div>
